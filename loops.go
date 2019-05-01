@@ -21,4 +21,12 @@ func main(){
     sum_ += sum_
   }
   fmt.Println(sum_)
+
+  /*
+  Range version of for loop
+  */
+  var pow = []int{1,2,3,4,5}
+  for i,v := range pow{
+    fmt.Printf("2**%d = %d\n", i, v)
+  }
 }
