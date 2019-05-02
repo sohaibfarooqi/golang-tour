@@ -1,10 +1,10 @@
 package main
 
 import (
-  "fmt"
-  "math/rand"
+	"fmt"
+	"math/rand"
 )
 
-func main(){
-  fmt.Println("Random Number: ", rand.Intn(10))
+func main() {
+	fmt.Println("Random Number: ", rand.Intn(10))
 }
